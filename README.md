@@ -1,24 +1,36 @@
-# README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Project
 
-Things you may want to cover:
+task
+https://github.com/Tanmayt59/task
+## Install
 
-* Ruby version
+### Clone the repository
 
-* System dependencies
+```shell
+git clone https://github.com/Tanmayt59/task.git
+cd project
+```
 
-* Configuration
 
-* Database creation
+### Install dependencies
 
-* Database initialization
+Using [Bundler](https://github.com/bundler/bundler) and [Yarn](https://github.com/yarnpkg/yarn):
 
-* How to run the test suite
+```shell
+bundle && yarn
+```
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+### Initialize the database
 
-* ...
+```shell
+rails db:create db:migrate db:seed
+```
+
+
+## Serve
+
+```shell
+rails s
+```..
